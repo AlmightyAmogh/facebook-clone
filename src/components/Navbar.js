@@ -18,12 +18,12 @@ const Navbar = () => {
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/640px-Facebook_f_logo_%282021%29.svg.png" alt="profile-pic" />
             <div className="header__input">
                 <SearchIcon/>
-                <input type="text" />
+                <input type="text" placeholder='Search Facebook'/>
             </div>
 
         </div>
         <div className="header__middle">
-            <div className="header__option">
+            <div className="header__option header__option--active">
                 <HomeIcon fontSize = "large"/>
             </div>
             <div className="header__option">
