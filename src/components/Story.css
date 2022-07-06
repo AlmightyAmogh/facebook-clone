@@ -1,0 +1,36 @@
+.Story{
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+.Story:hover{
+    transform: scale(1.07);
+}
+.story__avatar{
+    /* position: absolute; */
+    margin: 10px;
+    border: 3px solid #2e81f4;
+    /* bottom: 5px;
+    left: 10px; */
+}
+
+.Story > .story__avatar{
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+}
+
+.Story>h4{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    top: 0px;
+}

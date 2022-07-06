@@ -1,0 +1,11 @@
+.app{
+    height: 100vh;
+    background-color:whitesmoke;
+}
+
+.appBody{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
