@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Post.css";
 import { Avatar,IconButton } from '@mui/material';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import ChatBubbleRoundedIcon from '@mui/icons-material/ChatBubbleRounded';
+import ShareIcon from '@mui/icons-material/Share';
 const Post = ({profilePic,image,username,timestamp,message}) => {
   return (
     <div className='post'>
@@ -17,7 +20,21 @@ const Post = ({profilePic,image,username,timestamp,message}) => {
         <div className="post__image">
             <img src={image} alt="Post " />
         </div>
-
+        <div className="post__options">
+            <div className="post__option">
+            <ThumbUpIcon/>
+            <p>Like</p>
+            </div>
+        
+            <div className="post__option">
+            <ChatBubbleRoundedIcon/>
+            <p>Comment</p>
+            </div>
+            <div className="post__option">
+            <ShareIcon/>
+            <p>Share</p>
+            </div>
+        </div>
     </div>
   )
 }

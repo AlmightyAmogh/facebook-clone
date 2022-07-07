@@ -10,6 +10,7 @@
     margin-left: 10px;
     transition: transform 100ms ease-in;
     cursor: pointer;
+    flex: 1;
 }
 .Story:hover{
     transform: scale(1.07);
